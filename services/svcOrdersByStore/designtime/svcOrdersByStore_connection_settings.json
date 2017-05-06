@@ -1,0 +1,30 @@
+{
+  "endpointAddress" : "https://tjd-dashdb.mybluemix.net/orders_by_store/1803",
+  "method" : "GET",
+  "requestBody" : "",
+  "headers" : {
+    "Authorization" : [ "Basic d2F0c29uOnBAc3N3MHJk" ]
+  },
+  "queryParams" : { },
+  "sampleHttpResponseDetails" : {
+    "responseBody" : "{\"results\":{\"DEST_FACILITY_ID\":\"1803\",\"ORDERS\":[{\"ORDER_NBR\":50150300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3343},{\"ORDER_NBR\":355150300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3343},{\"ORDER_NBR\":357150300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3343},{\"ORDER_NBR\":450150300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3349},{\"ORDER_NBR\":462050300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3349},{\"ORDER_NBR\":735150300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3343},{\"ORDER_NBR\":605050300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3349},{\"ORDER_NBR\":927150300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3343},{\"ORDER_NBR\":750150300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3345},{\"ORDER_NBR\":941050300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3345},{\"ORDER_NBR\":318150300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3343},{\"ORDER_NBR\":295250300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3327},{\"ORDER_NBR\":395250300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3337},{\"ORDER_NBR\":297250300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3339},{\"ORDER_NBR\":499250300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3327},{\"ORDER_NBR\":499250300,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3337},{\"ORDER_NBR\":499250301,\"ORDER_DT\":\"2017-04-11\",\"SCHEDULE_DELIVERY_DT\":\"2017-04-12\",\"SHIP_FACILITY_ID\":3337}]}}",
+    "convertedResponse" : null,
+    "statusCode" : 200,
+    "headers" : {
+      "X-Backside-Transport" : [ "OK OK" ],
+      "Connection" : [ "Keep-Alive" ],
+      "Transfer-Encoding" : [ "chunked" ],
+      "Content-Type" : [ "text/html; charset=utf-8" ],
+      "Date" : [ "Fri, 05 May 2017 19:55:30 GMT" ],
+      "Etag" : [ "\"782710742\"" ],
+      "Set-Cookie" : [ "connect.sid=s%3AMXvKqc8uncXes23fqOG688FY.kMIssbZQz1cwh3FzWkkINPZDrGfKT1RNaWsCz%2BWMeXo; Path=/; HttpOnly" ],
+      "X-Powered-By" : [ "Express" ],
+      "X-Global-Transaction-ID" : [ "1643069055" ]
+    }
+  },
+  "redirectEnabled" : true,
+  "proxy" : null,
+  "authType" : "BASIC",
+  "contentType" : "text/xml",
+  "multiParamInfoList" : null
+}

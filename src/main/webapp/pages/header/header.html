@@ -1,0 +1,43 @@
+<wm-partial data-ng-controller="headerPageController" name="header" type="header">
+    <wm-layoutgrid name="headerlayout">
+        <wm-gridrow name="headerrow">
+            <wm-gridcolumn name="headerleft" verticalalign="middle" columnwidth="11">
+                <wm-picture picturesource="resources/images/imagelists/header_logo_albertsons.png" name="AppLogo" margin="unset unset unset 5px"></wm-picture>
+            </wm-gridcolumn>
+            <wm-gridcolumn columnwidth="1" name="gridcolumn2" horizontalalign="center">
+                <wm-button class="btn-default" caption="About" type="button" margin="unset 0.5em" name="button1" on-click="Widgets.dialog1.open()" fontsize="10"></wm-button>
+                <wm-button class="btn-default" caption="Logout" type="button" margin="unset 0.5em" name="button2" on-click="Variables.logoutVariable.invoke()" fontsize="10"></wm-button>
+            </wm-gridcolumn>
+        </wm-gridrow>
+    </wm-layoutgrid>
+    <wm-view class="dialog-view" name="view1">
+        <wm-dialog dialogtype="design-dialog" modal="true" title="About" iconclass="wi wi-file-text" name="dialog1">
+            <wm-layoutgrid name="layoutgrid2">
+                <wm-gridrow name="gridrow2">
+                    <wm-gridcolumn columnwidth="12" name="gridcolumn3">
+                        <wm-label class="col-md-3 control-label" caption="Albertsons Chatbot Prototype - May 6, 2017" width="500" fontsize="24" name="label1"></wm-label>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+                <wm-gridrow name="gridrow3">
+                    <wm-gridcolumn columnwidth="12" name="gridcolumn5">
+                        <wm-html fontsize="3" name="html1">
+                            <h1>Overview</h1>
+                            <h1><font size="3">
+This is the Albertsons Chatbot prototype developed by IBM to demonstrate the capabilities of the Watson Conversation API and IBM Bluemix.  With these tools, Albertsons can solve problems in new ways.  The concept of conversational discovery will allow traditional requests for information to be delivered in a human like interaction to ask the necessary follow on questions to get all that is required to satisfy a user's request.
+<h1>Examples of Use</h1>
+                            </font>
+                            </h1>
+                            <h1><font size="3">
+Where is my order?<br>
+Do I have any raspberries coming today?<br>
+Why didn't I receive all the items I ordered?<br></font></h1>
+                        </wm-html>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+            </wm-layoutgrid>
+            <wm-dialogactions name="dialogactions1">
+                <wm-button class="btn-primary" caption="Close" on-click="closeDialog()" name="button3"></wm-button>
+            </wm-dialogactions>
+        </wm-dialog>
+    </wm-view>
+</wm-partial>
