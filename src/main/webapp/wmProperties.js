@@ -1,5 +1,5 @@
 var _WM_APP_PROPERTIES = {
-  "activeTheme" : "autumn",
+  "activeTheme" : "default",
   "dateFormat" : "",
   "defaultLanguage" : "en",
   "displayName" : "Albertsons_ChatBot_20170506",
